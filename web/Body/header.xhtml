@@ -1,0 +1,24 @@
+<ui:composition
+
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:p="http://primefaces.org/ui">
+
+   <h:form >
+      <div class="  ">
+
+         <p:commandLink action="#{controller.accueil}" ajax="false" class="ui-g" style="width: 200px">
+             <div class="headerTxt ui-g-6">
+                Hello
+             </div>
+             <div class="">
+                <p:graphicImage name="img/Exp_logo_RGB.svg" class="imgHeader "/>
+             </div>
+         </p:commandLink>
+
+      </div>
+
+   </h:form>
+</ui:composition>

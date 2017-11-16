@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    height: 80px;
+    background: #67a7db;
+}
+
+.imgHeader{
+    float: left;
+}
+
+.headerTxt{
+    color: aliceblue;
+    text-decoration: aliceblue;
+}
+
+.choices{
+    margin-top: 100px;
+
+
+}

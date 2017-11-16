@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+
+<h:outputStylesheet name="StyleSheet.css"/>
+
+</h:head>
+<div class="ui-g-12 header">
+   <ui:include src="Body/header.xhtml"/>
+</div>
+
+<div class="choices">
+    <h:panelGrid columns="1" cellpadding="5">
+       <p:commandButton value="Hello" type="button" onclick="PF('dlg1').show();" />
+    </h:panelGrid>
+</div>
+
+<p:dialog header="Hello" widgetVar="dlg1" modal="true" height="100">
+    <p:graphicImage name="img/Exp_logo_RGB.svg" class="imgHeader "/>
+</p:dialog>
+
+
+<h:outputStylesheet name="stylesheet.css"/>
+</html>
